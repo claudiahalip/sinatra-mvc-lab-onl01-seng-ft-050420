@@ -5,7 +5,8 @@ class PigLatinizer
  
   
   def latinizer(text)
-    all_letters = ("a".."z").to_a
+    
+    all_letters = ("a".."z").to_a + ("A".."Z").to_a
     
     vowels = ["a", "e", "i", "o", "u","A", "E", "I", "O", "U" ]
     consonants = all_letters - vowels
