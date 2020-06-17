@@ -22,15 +22,6 @@ class PigLatinizer
           n +=1
         end
           arr_latinized <<  word[n..-1] + word[0..n-1] + "ay"
-          
-          
-        
-        
-      # elsif consonants.include?(word[0]) && consonants.include?(word[1])
-      #   arr_latinized <<  word[2..-1] + word[0] + word[1] + "ay"
-      # elsif consonants.include?(word[0])
-      #   arr_latinized << word[1..-1] + word[0] + "ay"
-      
       end 
     end
     arr_latinized.join(" ")
