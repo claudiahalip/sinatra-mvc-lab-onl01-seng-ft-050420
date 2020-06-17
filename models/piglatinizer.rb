@@ -6,8 +6,10 @@ class PigLatinizer
   
   def latinizer(text)
     all_letters = ("a".."z").to_a
-    vowels = ["a", "e", "i", "o", "u"]
+    
+    vowels = ["a", "e", "i", "o", "u","A", "E", "I", "O", "U" ]
     consonants = all_letters - vowels
+    
     arr_latinized = []
     text.split.each do |word|
       if vowels.include?(word[0])
