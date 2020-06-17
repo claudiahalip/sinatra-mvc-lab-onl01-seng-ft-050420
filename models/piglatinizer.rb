@@ -4,7 +4,7 @@ class PigLatinizer
   
  
   
-  def latinizer(text)
+  def piglatinize(text)
     
     all_letters = ("a".."z").to_a + ("A".."Z").to_a
     
